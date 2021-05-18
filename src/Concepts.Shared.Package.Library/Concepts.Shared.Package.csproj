@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Pala.Concepts.Shared</PackageId>
+    <Authors>Tiago Pala</Authors>
+    <Company>Pala</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>concepts pala tiagopala</PackageTags>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Registers\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+</Project>

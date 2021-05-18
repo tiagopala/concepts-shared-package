@@ -3,18 +3,24 @@
   <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <TargetFramework>net5.0</TargetFramework>
+    <Description>Library criada com o intuito de reunir trechos de códigos que podem ser reutilizados em diversos projetos.</Description>
     <PackageId>Pala.Concepts.Shared</PackageId>
     <Authors>Tiago Pala</Authors>
     <Company>Pala</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageTags>concepts pala tiagopala</PackageTags>
-    <PackageProjectUrl></PackageProjectUrl>
-    <RepositoryUrl></RepositoryUrl>
+    <PackageTags>concepts pala tiagopala dynamo dynamodb repository</PackageTags>
+    <PackageProjectUrl>https://gitlab.com/tiagopala/concepts.shared.package</PackageProjectUrl>
+    <RepositoryUrl>https://gitlab.com/tiagopala/concepts.shared.package</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <DebugType>Full</DebugType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
-
+    
   <ItemGroup>
-    <Folder Include="Registers\" />
-    <Folder Include="Repositories\" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.0.22" />
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.0.1" />
   </ItemGroup>
 
 </Project>

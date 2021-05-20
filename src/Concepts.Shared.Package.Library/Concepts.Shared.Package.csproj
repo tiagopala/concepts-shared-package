@@ -7,6 +7,7 @@
     <PackageId>Pala.Concepts.Shared</PackageId>
     <Authors>Tiago Pala</Authors>
     <Company>Pala</Company>
+    <Version>1.1.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>concepts pala tiagopala dynamo dynamodb repository</PackageTags>
     <PackageProjectUrl>https://gitlab.com/tiagopala/concepts.shared.package</PackageProjectUrl>
